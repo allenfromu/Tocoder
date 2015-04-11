@@ -62,3 +62,15 @@ public class Lottery {
             names[n] = tem2;
 
         }
+        return names;
+    }
+
+    public long fraction(int i,int j){
+        long total = 1;
+        while(i <= j){
+            total*=i;
+            i++;
+        }
+        return total;
+    }
+}
